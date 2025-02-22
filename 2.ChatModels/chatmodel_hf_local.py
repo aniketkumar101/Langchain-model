@@ -12,6 +12,6 @@ llm = HuggingFacePipeline.from_model_id(
 
 model = ChatHuggingFace(llm=llm)
 
-result = model.invoke("who is prime minister of india")
+result = model.invoke("who is prime minister of India")
 
 print(result.content)
